@@ -1,0 +1,19 @@
+.welcomeMessage {
+    margin: 120px auto;
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+}
+
+/* .app {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+} */

@@ -1,0 +1,77 @@
+.schedule {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #4B5C68;
+}
+
+.sch-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.sch-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.sch-table thead {
+    height: 40px;
+    font-size: 12px;
+    background-color: #E4EDF2;
+    text-align: left;
+}
+
+.sch-table thead tr {
+    height: 40px;
+    font-size: 12px;
+    background-color: #E4EDF2;
+}
+
+.sch-table thead tr th:nth-of-type(1) {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.sch-table thead tr th:nth-of-type(2) {
+    text-align: left;
+    padding-left: 60px;
+}
+
+.sch-table thead tr th:nth-of-type(3) {
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 30px;
+}
+
+.sch-table thead tr th:nth-of-type(5) {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #182C62;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+
+    .sch-table thead tr th:nth-of-type(2) {
+        display: none;
+        }
+}
+
+@media screen and (max-width: 500px) {
+
+    .sch-table thead tr th:nth-of-type(1) {
+        display: none;
+    }
+
+    .sch-table thead tr th:nth-of-type(2) {
+        display: none;
+    }
+}

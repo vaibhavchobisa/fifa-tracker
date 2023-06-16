@@ -1,0 +1,11 @@
+.error-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.error-404 img {
+    max-width: 100%;
+    height: auto;
+}

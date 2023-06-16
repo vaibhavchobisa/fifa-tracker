@@ -1,0 +1,53 @@
+.leaderboard {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #4B5C68;
+}
+
+.ld-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.ld-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.ld-table thead {
+    height: 40px;
+    font-size: 12px;
+    background-color: #E4EDF2;
+}
+
+.ld-table thead tr {
+    height: 40px;
+    font-size: 12px;
+    background-color: #E4EDF2;
+}
+
+.ld-table thead tr th:nth-of-type(1) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ld-table thead tr th:nth-of-type(2), 
+.ld-table thead tr th:nth-of-type(3), 
+.ld-table thead tr th:nth-of-type(4) {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.ld-table thead tr th:last-child {
+    text-align: center;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #182C62;
+    text-align: center;
+}

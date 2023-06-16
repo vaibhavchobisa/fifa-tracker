@@ -1,0 +1,42 @@
+.ld-row {
+    height: 70px;
+    white-space: nowrap;
+    border-bottom: 1px solid #E4EDF2;
+}
+
+.ld-row:last-child {
+    border: none;
+}
+
+.ld-row td:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ld-row td:nth-of-type(2),
+.ld-row td:nth-of-type(3),
+.ld-row td:nth-of-type(4) {
+    text-align: center;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.ld-row td:last-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: #025FEB;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.ld-row span {
+    display: flex;
+    align-items: center;
+}
+
+.ld-row span img {
+    height: 37px;
+    width: 53px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
